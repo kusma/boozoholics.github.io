@@ -3,10 +3,25 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <title> boozoholics : the norwegian (and special friends) booze elite </title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    {{ content}}
+    <div class="main">
+      <div class="logo">
+        <img src="{% link assets/logo.jpg %}" style="text-align: right;" alt="boozoholics : the norwegian (and special friends) booze elite" />
+      </div>
+      <div class="memberlist">
+        arcane : bronix : dodke : dominei : gus : kusma : leia : lug00ber : menace : quisten : raimo : sanders : slummy : waffle : xbit : zack
+      </div>
+
+      <div class="menu">
+        <a href="index.html">frontpage</a> : <a href="parties.html">parties</a> : <a href="prods.html">productions</a>
+      </div>
+
+      <div class="textfield">
+        {{ content }}
+      </div>
+    </div>
   </body>
 </html>
