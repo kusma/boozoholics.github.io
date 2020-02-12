@@ -27,8 +27,7 @@ prods:
     pouet-id: 12954
     url: https://files.scene.org/view/parties/2004/mfx+kewlers_birthday_party/demo/bzh-gay.zip
   - title: Deilig (Windows)
-    pouet-id: 13387
-    url: http://www.home.no/ebbe.smith/Bzh-Deilig.zip
+    excuse: It seems Quisten's web hosting went down, and he forgot to upload to scene.org. Whoopsie!
 ---
 **productions :**
 
