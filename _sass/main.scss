@@ -42,7 +42,11 @@ div.logo {
   text-align: right;
   background: black;
   color: black;
+}
 
+div.logo > img {
+  max-width: 100%;
+  height: auto;
 }
 
 div.memberlist {
