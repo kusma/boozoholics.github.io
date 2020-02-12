@@ -12,13 +12,13 @@ html {
   font: 14px verdana, sans-serif;
   color: black;
   background: gray;
-  margin: 0px;
+  margin: 0;
   overflow: visible;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background: gray;
   color: black;
   overflow: visible;
@@ -36,10 +36,9 @@ div.main {
   div.main {
     position: absolute;
     top: 1rem;
-    left: 0px;
-    width: 100%;
+    left: 0;
+    right: 0;
     bottom: 1rem;
-    min-height: 80%;
     background: white;
     color: black;
     overflow: auto;
