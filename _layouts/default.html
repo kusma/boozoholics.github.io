@@ -12,7 +12,11 @@
         <img src="{% link assets/logo.jpg %}" alt="boozoholics : the norwegian (and special friends) booze elite" />
       </div>
       <div class="memberlist">
-        arcane : bronix : dodke : dominei : gus : kusma : leia : lug00ber : menace : quisten : raimo : sanders : slummy : waffle : xbit : zack
+        <ul>
+          {% for member in site.members %}
+          <li>{{ member }}</li>
+          {% endfor %}
+        </ul>
       </div>
 
       <nav>

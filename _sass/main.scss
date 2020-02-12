@@ -58,8 +58,22 @@ div.logo > img {
 }
 
 div.memberlist {
-  border: none;
   text-align: center;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+
+  li {
+    display: inline;
+  }
+
+  li:not(:last-child)::after,
+  li:not(:last-child)::after {
+      content: " :: ";
+  }
 }
 
 nav {
