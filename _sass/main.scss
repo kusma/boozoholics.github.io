@@ -56,7 +56,8 @@ div.logo {
   }
 }
 
-div.memberlist {
+div.memberlist,
+nav {
   text-align: center;
   ul {
     list-style: none;
@@ -68,7 +69,9 @@ div.memberlist {
   li {
     display: inline;
   }
+}
 
+div.memberlist {
   li:not(:last-child)::after,
   li:not(:last-child)::after {
       content: " :: ";
@@ -78,6 +81,11 @@ div.memberlist {
 nav {
   border-bottom: 1px solid black;
   text-align: center;
+
+  li:not(:last-child)::after,
+  li:not(:last-child)::after {
+      content: " : ";
+  }
 }
 
 main {
